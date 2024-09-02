@@ -1,0 +1,33 @@
+@use '../../styles/variables' as *;
+
+.selector {
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .light-theme {
+    background-color: $lightbrown;
+    color: $secondary; 
+  }
+  
+  .dark-theme {
+    background-color: $secondary; 
+    color: $darkbeige; 
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: inherit;
+    color: inherit;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: $darkbeige; 
+    box-shadow: $beige; 
+  }

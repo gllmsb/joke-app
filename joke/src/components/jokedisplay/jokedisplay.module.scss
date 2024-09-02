@@ -1,0 +1,19 @@
+@use '../../styles/variables' as *;
+
+.jokeContainer {
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease; 
+
+    h2 {
+        font-size: 3rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    p {
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+    }
+  }
